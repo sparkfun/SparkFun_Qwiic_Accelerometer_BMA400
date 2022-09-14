@@ -25494,7 +25494,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="ADR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_01" device="_1MM"/>
@@ -25505,6 +25504,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="ADR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39288/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -25526,8 +25526,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="154.94" y="99.06" size="2.54" layer="97" font="vector">GND</text>
 <text x="154.94" y="106.68" size="2.54" layer="97" font="vector">3V3</text>
 <text x="154.94" y="91.44" size="2.54" layer="97" font="vector">Open</text>
-<text x="167.64" y="106.68" size="2.54" layer="97" font="vector">0x15 (Default)</text>
-<text x="167.64" y="99.06" size="2.54" layer="97" font="vector">0x14</text>
+<text x="167.64" y="106.68" size="2.54" layer="97" font="vector">0x15</text>
+<text x="167.64" y="99.06" size="2.54" layer="97" font="vector">0x14 (Default)</text>
 <text x="167.64" y="91.44" size="2.54" layer="97" font="vector">SPI</text>
 <wire x1="152.4" y1="119.38" x2="193.04" y2="119.38" width="0.2032" layer="97"/>
 <wire x1="193.04" y1="119.38" x2="193.04" y2="111.76" width="0.2032" layer="97"/>
@@ -25664,9 +25664,6 @@ VDDIO: 1.2V - 3.6V</text>
 <instance part="GND8" gate="1" x="205.74" y="78.74" smashed="yes">
 <attribute name="VALUE" x="205.74" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="ADR" gate="G$1" x="205.74" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="202.184" y="101.6" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
-</instance>
 <instance part="R6" gate="G$1" x="129.54" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.016" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="131.064" y="55.88" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -25697,6 +25694,9 @@ VDDIO: 1.2V - 3.6V</text>
 <instance part="LOGO4" gate="G$1" x="223.52" y="44.958" smashed="yes"/>
 <instance part="GND2" gate="1" x="43.18" y="45.72" smashed="yes">
 <attribute name="VALUE" x="43.18" y="45.466" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="ADR" gate="G$1" x="205.74" y="101.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="202.184" y="101.6" size="1.778" layer="95" font="vector" rot="MR90" align="center"/>
 </instance>
 </instances>
 <busses>
@@ -25851,9 +25851,9 @@ VDDIO: 1.2V - 3.6V</text>
 <label x="93.98" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ADR" gate="G$1" pin="2"/>
 <wire x1="210.82" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="213.36" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="ADR" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
@@ -25912,14 +25912,14 @@ VDDIO: 1.2V - 3.6V</text>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="109.22" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="ADR" gate="G$1" pin="3"/>
+<pinref part="ADR" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="93.98" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="ADR" gate="G$1" pin="1"/>
+<pinref part="ADR" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$1" class="0">

@@ -2723,10 +2723,6 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </pass>
 </autorouter>
 <elements>
-<element name="ADR" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value="JUMPER-SMT_3_1-NC_TRACE_SILK" x="1.27" y="7.62" smashed="yes" rot="MR90">
-<attribute name="NAME" x="2.413" y="7.62" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
-<attribute name="VALUE" x="0.127" y="7.62" size="0.6096" layer="28" font="vector" ratio="20" rot="MR90" align="top-center"/>
-</element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="6.35" y="10.16" smashed="yes">
 <attribute name="NAME" x="6.35" y="10.922" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-12416" x="35.56" y="-17.78" size="1.778" layer="27" display="off"/>
@@ -2827,6 +2823,10 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <element name="U$9" library="output" package="#0X15#0" value="" x="1.27" y="9.017" smashed="yes" rot="MR90"/>
 <element name="U$10" library="output" package="#0X14#0" value="" x="1.27" y="6.223" smashed="yes" rot="MR90"/>
 <element name="U$11" library="output" package="#PWR#0" value="" x="5.588" y="11.43" smashed="yes" rot="MR0"/>
+<element name="ADR" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39288/1" value="JUMPER-SMT_3_1-NC_TRACE_SILK" x="1.27" y="7.62" smashed="yes" rot="MR270">
+<attribute name="NAME" x="0.127" y="7.62" size="0.6096" layer="26" font="vector" ratio="20" rot="MR270" align="bottom-center"/>
+<attribute name="VALUE" x="2.413" y="7.62" size="0.6096" layer="28" font="vector" ratio="20" rot="MR270" align="top-center"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -2959,12 +2959,12 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="ADR">
 <contactref element="U1" pad="1"/>
-<contactref element="ADR" pad="2"/>
 <wire x1="4.585" y1="8.14" x2="4.585" y2="7.607" width="0.127" layer="1"/>
 <wire x1="4.585" y1="7.607" x2="4.699" y2="7.493" width="0.127" layer="1"/>
 <via x="4.699" y="7.493" extent="1-16" drill="0.3048"/>
 <wire x1="1.27" y1="7.62" x2="4.572" y2="7.62" width="0.127" layer="16"/>
 <wire x1="4.572" y1="7.62" x2="4.699" y2="7.493" width="0.127" layer="16"/>
+<contactref element="ADR" pad="2"/>
 </signal>
 <signal name="!CS!">
 <contactref element="U1" pad="10"/>
@@ -3009,21 +3009,21 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </signal>
 <signal name="N$5">
 <contactref element="R5" pad="1"/>
-<contactref element="ADR" pad="3"/>
 <wire x1="0.77" y1="8.636" x2="0.77" y2="9.39" width="0.127" layer="1"/>
 <wire x1="0.77" y1="9.39" x2="0.762" y2="9.398" width="0.127" layer="1"/>
 <via x="0.762" y="9.398" extent="1-16" drill="0.3048"/>
 <wire x1="0.762" y1="9.398" x2="0.762" y2="8.6614" width="0.127" layer="16"/>
 <wire x1="0.762" y1="8.6614" x2="1.27" y2="8.6614" width="0.127" layer="16"/>
+<contactref element="ADR" pad="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R4" pad="2"/>
-<contactref element="ADR" pad="1"/>
 <wire x1="0.77" y1="7.112" x2="0.77" y2="5.85" width="0.127" layer="1"/>
 <wire x1="0.77" y1="5.85" x2="0.762" y2="5.842" width="0.127" layer="1"/>
 <via x="0.762" y="5.842" extent="1-16" drill="0.3048"/>
 <wire x1="0.762" y1="5.842" x2="0.762" y2="6.5786" width="0.127" layer="16"/>
 <wire x1="0.762" y1="6.5786" x2="1.27" y2="6.5786" width="0.127" layer="16"/>
+<contactref element="ADR" pad="3"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
@@ -3046,8 +3046,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <errors>
 <approved hash="19,16,c3a145816381639e"/>
 <approved hash="19,16,74da03ca61d05ee5"/>
-<approved hash="19,16,fba37983db83db9c"/>
 <approved hash="19,16,03800a202c2623fc"/>
+<approved hash="19,16,fa3778a7daafda3c"/>
 </errors>
 </board>
 </drawing>
