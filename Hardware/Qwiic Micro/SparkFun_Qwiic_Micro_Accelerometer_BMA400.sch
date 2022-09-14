@@ -25522,29 +25522,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="147.32" y1="142.24" x2="147.32" y2="185.42" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="66.04" x2="248.92" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="147.32" y1="142.24" x2="248.92" y2="142.24" width="0.2032" layer="97" style="longdash"/>
-<text x="165.1" y="114.3" size="2.54" layer="97" font="vector">I2C Address</text>
-<text x="165.1" y="99.06" size="2.54" layer="97" font="vector">GND</text>
-<text x="165.1" y="106.68" size="2.54" layer="97" font="vector">3V3</text>
-<text x="165.1" y="91.44" size="2.54" layer="97" font="vector">Open</text>
-<text x="177.8" y="106.68" size="2.54" layer="97" font="vector">0x14</text>
-<text x="177.8" y="99.06" size="2.54" layer="97" font="vector">0x15</text>
-<text x="177.8" y="91.44" size="2.54" layer="97" font="vector">SPI</text>
-<wire x1="162.56" y1="119.38" x2="187.96" y2="119.38" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="119.38" x2="187.96" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="111.76" x2="187.96" y2="104.14" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="104.14" x2="187.96" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="96.52" x2="187.96" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="187.96" y1="88.9" x2="175.26" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="175.26" y1="88.9" x2="162.56" y2="88.9" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="88.9" x2="162.56" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="96.52" x2="162.56" y2="104.14" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="104.14" x2="162.56" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="111.76" x2="162.56" y2="119.38" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="111.76" x2="175.26" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="175.26" y1="111.76" x2="187.96" y2="111.76" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="104.14" x2="187.96" y2="104.14" width="0.2032" layer="97"/>
-<wire x1="162.56" y1="96.52" x2="187.96" y2="96.52" width="0.2032" layer="97"/>
-<wire x1="175.26" y1="88.9" x2="175.26" y2="111.76" width="0.2032" layer="97"/>
+<text x="154.94" y="114.3" size="2.54" layer="97" font="vector">I2C Address</text>
+<text x="154.94" y="99.06" size="2.54" layer="97" font="vector">GND</text>
+<text x="154.94" y="106.68" size="2.54" layer="97" font="vector">3V3</text>
+<text x="154.94" y="91.44" size="2.54" layer="97" font="vector">Open</text>
+<text x="167.64" y="106.68" size="2.54" layer="97" font="vector">0x15 (Default)</text>
+<text x="167.64" y="99.06" size="2.54" layer="97" font="vector">0x14</text>
+<text x="167.64" y="91.44" size="2.54" layer="97" font="vector">SPI</text>
+<wire x1="152.4" y1="119.38" x2="193.04" y2="119.38" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="119.38" x2="193.04" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="111.76" x2="193.04" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="104.14" x2="193.04" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="193.04" y1="88.9" x2="165.1" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="165.1" y1="88.9" x2="152.4" y2="88.9" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="88.9" x2="152.4" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="96.52" x2="152.4" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="104.14" x2="152.4" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="111.76" x2="152.4" y2="119.38" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="111.76" x2="165.1" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="165.1" y1="111.76" x2="193.04" y2="111.76" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="104.14" x2="193.04" y2="104.14" width="0.2032" layer="97"/>
+<wire x1="152.4" y1="96.52" x2="193.04" y2="96.52" width="0.2032" layer="97"/>
+<wire x1="165.1" y1="88.9" x2="165.1" y2="111.76" width="0.2032" layer="97"/>
 <text x="198.12" y="149.86" size="2.54" layer="97" font="vector" align="center">Cut traces to disconnect I2C pullup resistors</text>
 <text x="93.98" y="12.7" size="2.54" layer="97" font="vector" align="center">Cut trace to
 disconnect
@@ -25650,22 +25650,22 @@ VDDIO: 1.2V - 3.6V</text>
 <attribute name="NAME" x="210.82" y="161.544" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="210.82" y="158.496" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="R4" gate="G$1" x="198.12" y="88.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.596" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="199.644" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R4" gate="G$1" x="205.74" y="88.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.216" y="88.9" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="207.264" y="88.9" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R5" gate="G$1" x="198.12" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="196.596" y="114.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="199.644" y="114.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R5" gate="G$1" x="205.74" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="204.216" y="114.3" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="207.264" y="114.3" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY9" gate="G$1" x="198.12" y="121.92" smashed="yes">
-<attribute name="VALUE" x="198.12" y="124.714" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY9" gate="G$1" x="205.74" y="121.92" smashed="yes">
+<attribute name="VALUE" x="205.74" y="124.714" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND8" gate="1" x="198.12" y="78.74" smashed="yes">
-<attribute name="VALUE" x="198.12" y="78.486" size="1.778" layer="96" align="top-center"/>
+<instance part="GND8" gate="1" x="205.74" y="78.74" smashed="yes">
+<attribute name="VALUE" x="205.74" y="78.486" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="ADR" gate="G$1" x="198.12" y="101.6" smashed="yes" rot="R180">
-<attribute name="NAME" x="194.564" y="101.6" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
+<instance part="ADR" gate="G$1" x="205.74" y="101.6" smashed="yes" rot="R180">
+<attribute name="NAME" x="202.184" y="101.6" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
 </instance>
 <instance part="R6" gate="G$1" x="129.54" y="55.88" smashed="yes" rot="R90">
 <attribute name="NAME" x="128.016" y="55.88" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -25727,7 +25727,7 @@ VDDIO: 1.2V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="198.12" y1="81.28" x2="198.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="81.28" x2="205.74" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -25780,7 +25780,7 @@ VDDIO: 1.2V - 3.6V</text>
 <pinref part="I2C" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="198.12" y1="119.38" x2="198.12" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="SUPPLY9" gate="G$1" pin="3.3V"/>
 <pinref part="R5" gate="G$1" pin="2"/>
 </segment>
@@ -25852,8 +25852,8 @@ VDDIO: 1.2V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="ADR" gate="G$1" pin="2"/>
-<wire x1="203.2" y1="101.6" x2="205.74" y2="101.6" width="0.1524" layer="91"/>
-<label x="205.74" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="210.82" y1="101.6" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
+<label x="213.36" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="!CS!" class="0">
@@ -25911,14 +25911,14 @@ VDDIO: 1.2V - 3.6V</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="109.22" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="109.22" x2="205.74" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="ADR" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="93.98" x2="198.12" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="93.98" x2="205.74" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="ADR" gate="G$1" pin="1"/>
 </segment>
 </net>

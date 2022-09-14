@@ -7284,10 +7284,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,16,85cafb2e33cfeb8a"/>
-<approved hash="19,16,0c5e9951a700c613"/>
 <approved hash="19,16,75eb41fe361d3a80"/>
 <approved hash="19,16,9f6e4258d669e34a"/>
 <approved hash="19,16,43ab866fa4781295"/>
+<approved hash="19,16,48987c2e9e615ecb"/>
 </errors>
 </board>
 </drawing>
