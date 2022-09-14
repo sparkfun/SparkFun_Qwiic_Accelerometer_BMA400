@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -190,6 +190,17 @@
 <rectangle x1="11.8618" y1="12.6746" x2="11.9888" y2="12.7508" layer="41"/>
 <text x="1.27" y="10.16" size="1.778" layer="16" font="vector" ratio="15" rot="MR270" align="center">v01</text>
 <rectangle x1="11.43" y1="13.716" x2="11.684" y2="14.351" layer="42"/>
+<text x="16.51" y="-29.21" size="1.778" layer="51" font="vector">Dryw Wade</text>
+<dimension x1="0" y1="0" x2="2.54" y2="0" x3="1.27" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="6.35" y2="0" x3="3.175" y3="-7.62" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="19.05" y2="0" x3="9.525" y3="-11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="22.86" y2="0" x3="11.43" y3="-15.24" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="25.4" y2="0" x3="12.7" y3="-19.05" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="2.54" x3="-1.27" y3="1.27" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="22.86" x3="-5.08" y3="11.43" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="0" x2="0" y2="25.4" x3="-8.89" y3="12.7" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="11.43" y2="25.4" x3="5.715" y3="26.67" textsize="1.778" layer="47" unit="inch"/>
+<dimension x1="0" y1="25.4" x2="13.97" y2="25.4" x3="6.985" y3="30.48" textsize="1.778" layer="47" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -5263,9 +5274,9 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-7.62" y="-21.59" smashed="yes">
-<attribute name="DESIGNER" value="" x="72.39" y="-22.86" size="1.778" layer="27" display="off"/>
-<attribute name="REV" value="" x="72.39" y="-22.86" size="1.778" layer="27" display="off"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-10.16" y="-29.21" smashed="yes">
+<attribute name="DESIGNER" value="" x="69.85" y="-30.48" size="1.778" layer="27" display="off"/>
+<attribute name="REV" value="" x="69.85" y="-30.48" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U1" library="BMA400" package="BMA400" value="BMA400" x="12.7" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.922" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
@@ -5443,7 +5454,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <via x="1.27" y="20.32" extent="1-16" drill="0.3048"/>
 <via x="5.08" y="24.13" extent="1-16" drill="0.3048"/>
 <via x="20.32" y="24.13" extent="1-16" drill="0.3048"/>
-<via x="24.13" y="20.32" extent="1-16" drill="0.3048"/>
+<via x="24.003" y="20.447" extent="1-16" drill="0.3048"/>
 <via x="24.13" y="12.7" extent="1-16" drill="0.3048"/>
 <via x="1.27" y="12.7" extent="1-16" drill="0.3048"/>
 <via x="10.16" y="22.86" extent="1-16" drill="0.3048"/>

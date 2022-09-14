@@ -25558,6 +25558,9 @@ power LED</text>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="129.54" y="30.48" size="2.54" layer="94" font="vector" align="center">Test Points</text>
 <wire x1="147.32" y1="35.56" x2="111.76" y2="35.56" width="0.2032" layer="97" style="longdash"/>
+<text x="78.74" y="154.94" size="2.54" layer="97" font="vector" align="center">Voltage Range
+VDD: 1.72V - 3.6V
+VDDIO: 1.2V - 3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>

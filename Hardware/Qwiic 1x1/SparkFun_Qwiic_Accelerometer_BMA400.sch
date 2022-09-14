@@ -26102,6 +26102,9 @@ disconnect
 <wire x1="111.76" y1="81.28" x2="147.32" y2="81.28" width="0.2032" layer="97" style="longdash"/>
 <wire x1="111.76" y1="81.28" x2="111.76" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="76.2" y1="81.28" x2="76.2" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="78.74" y="154.94" size="2.54" layer="97" font="vector" align="center">Voltage Range
+VDD: 1.72V - 3.6V
+VDDIO: 1.2V - 3.6V</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
