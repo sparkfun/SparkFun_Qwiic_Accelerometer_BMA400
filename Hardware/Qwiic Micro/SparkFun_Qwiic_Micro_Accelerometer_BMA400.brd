@@ -197,6 +197,7 @@
 <text x="6.9342" y="3.556" size="0.8128" layer="16" font="vector" ratio="20" rot="SMR270" align="center">v01</text>
 <rectangle x1="2.9972" y1="8.8646" x2="3.0734" y2="8.9154" layer="41"/>
 <text x="7.62" y="-13.97" size="1.778" layer="51" font="vector">Dryw Wade</text>
+<text x="-15.24" y="-2.54" size="1.778" layer="47" font="vector">Units: inches</text>
 </plain>
 <libraries>
 <library name="SparkFun-Jumpers">
