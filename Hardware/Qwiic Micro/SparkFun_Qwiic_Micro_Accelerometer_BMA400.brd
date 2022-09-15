@@ -917,6 +917,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="BMA400">
 <packages>
 <package name="BMA400">
+<description>&lt;h3&gt;LGA12&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 12&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <smd name="1" x="-0.75" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="3" x="0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
@@ -2798,6 +2805,7 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 </element>
 <element name="U1" library="BMA400" package="BMA400" value="BMA400" x="3.81" y="8.89" smashed="yes" rot="R90">
 <attribute name="NAME" x="2.032" y="8.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="PROD_ID" value="IC-17118" x="3.81" y="8.89" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="5.588" y="8.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="J2" library="SparkFun-Connectors" package="1X01_1MM_NO_SILK" value="" x="6.35" y="13.97" smashed="yes">

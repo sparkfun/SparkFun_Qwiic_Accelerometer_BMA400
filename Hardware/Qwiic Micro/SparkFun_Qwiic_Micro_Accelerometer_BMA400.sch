@@ -23155,6 +23155,13 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <library name="BMA400">
 <packages>
 <package name="BMA400">
+<description>&lt;h3&gt;LGA12&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 12&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <smd name="1" x="-0.75" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="3" x="0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
@@ -23227,6 +23234,8 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </symbols>
 <devicesets>
 <deviceset name="BMA400" prefix="U">
+<description>Bosch BMA400 Accelerometer
+Senses acceleration with 12-bit resolution up to 16g, sends data out over I2C or SPI</description>
 <gates>
 <gate name="G$1" symbol="BMA400" x="0" y="0"/>
 </gates>
@@ -23244,7 +23253,9 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <connect gate="G$1" pin="VDDIO" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-17118"/>
+</technology>
 </technologies>
 </device>
 </devices>

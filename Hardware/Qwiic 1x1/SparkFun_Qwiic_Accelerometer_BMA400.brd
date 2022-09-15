@@ -1195,6 +1195,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="BMA400">
 <packages>
 <package name="BMA400">
+<description>&lt;h3&gt;LGA12&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 12&lt;/li&gt;
+&lt;li&gt;Pin pitch: .5mm&lt;/li&gt;
+&lt;li&gt;Area: 2.0 x 2.0 mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bma400-ds000.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
 <smd name="1" x="-0.75" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="2" x="-0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
 <smd name="3" x="0.25" y="-0.775" dx="0.3" dy="0.35" layer="1" stop="no" cream="no"/>
@@ -6885,6 +6892,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </element>
 <element name="U1" library="BMA400" package="BMA400" value="BMA400" x="12.7" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="10.922" y="12.7" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="PROD_ID" value="IC-17118" x="12.7" y="12.7" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="14.478" y="12.7" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="3.175" y="8.255" smashed="yes"/>
@@ -7285,10 +7293,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,16,75eb41fe361d3a80"/>
-<approved hash="19,16,9f6e4258d669e34a"/>
-<approved hash="19,16,43ab866fa4781295"/>
-<approved hash="19,16,48987c2e9e615ecb"/>
 <approved hash="19,16,33ecc0c9c2e81b6d"/>
+<approved hash="19,16,2129a50f682e041d"/>
+<approved hash="19,16,0c5e9951a700c613"/>
+<approved hash="19,16,869de2ff9a548d1f"/>
 </errors>
 </board>
 </drawing>
