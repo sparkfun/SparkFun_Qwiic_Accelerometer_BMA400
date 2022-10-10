@@ -231,6 +231,19 @@
 <rectangle x1="-0.9" y1="-0.4" x2="-0.65" y2="-0.1" layer="31" rot="R270"/>
 <text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<wire x1="0" y1="0" x2="-3" y2="0" width="0.25" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="-3" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.74" radius="0.5060625" width="0.25" layer="51"/>
+<wire x1="0" y1="-3" x2="0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="0.5" y1="-2.5" x2="-0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0" y2="-3" width="0.25" layer="51"/>
+<wire x1="-3" y1="0" x2="-2.5" y2="-0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="-0.5" x2="-2.5" y2="0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="0.5" x2="-3" y2="0" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.75" radius="0.16643125" width="0" layer="51"/>
+<text x="-1.981" y="0.595" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">X</text>
+<text x="0.635" y="-1.841" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Y</text>
+<text x="-3" y="-1.738" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Z</text>
 </package>
 </packages>
 <symbols>

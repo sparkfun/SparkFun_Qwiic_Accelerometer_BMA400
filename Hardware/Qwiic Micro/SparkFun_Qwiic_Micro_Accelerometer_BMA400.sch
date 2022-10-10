@@ -23211,6 +23211,19 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 <rectangle x1="-0.9" y1="-0.4" x2="-0.65" y2="-0.1" layer="31" rot="R270"/>
 <text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<wire x1="0" y1="0" x2="-3" y2="0" width="0.25" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="-3" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.74" radius="0.5060625" width="0.25" layer="51"/>
+<wire x1="0" y1="-3" x2="0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="0.5" y1="-2.5" x2="-0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0" y2="-3" width="0.25" layer="51"/>
+<wire x1="-3" y1="0" x2="-2.5" y2="-0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="-0.5" x2="-2.5" y2="0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="0.5" x2="-3" y2="0" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.75" radius="0.16643125" width="0" layer="51"/>
+<text x="-1.981" y="0.595" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">X</text>
+<text x="0.635" y="-1.841" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Y</text>
+<text x="-3" y="-1.738" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Z</text>
 </package>
 </packages>
 <symbols>
@@ -23995,14 +24008,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<text x="0" y="-0.254" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="3.3V">
 <description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -24502,6 +24515,30 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 <wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
 </package>
+<package name="LED-0805">
+<description>&lt;B&gt;LED 0805 SMT&lt;/B&gt;&lt;p&gt;
+0805, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.05mm &lt;/li&gt;
+&lt;li&gt;Area: 1.2mm x 1.2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - RED&lt;/li&gt;</description>
+<smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<smd name="C" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<wire x1="2" y1="0.75" x2="2" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="0.75" x2="-1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.75" x2="1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.75" x2="1.8" y2="0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.75" x2="-1.8" y2="0.75" width="0.05" layer="39"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.3" y1="0.4" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -24618,6 +24655,18 @@ Standard 0402 sized pads with cathode pin indicator.
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16757" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16865"/>
+<attribute name="VALUE" value="RED"/>
 </technology>
 </technologies>
 </device>

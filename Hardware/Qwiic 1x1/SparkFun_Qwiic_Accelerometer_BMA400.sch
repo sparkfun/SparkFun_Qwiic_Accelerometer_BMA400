@@ -21969,6 +21969,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="-0.9" y1="-0.4" x2="-0.65" y2="-0.1" layer="31" rot="R270"/>
 <text x="0" y="1.778" size="0.6096" layer="25" font="vector" ratio="20" align="center">&gt;Name</text>
 <text x="0" y="-1.778" size="0.6096" layer="27" font="vector" ratio="20" align="center">&gt;Value</text>
+<wire x1="0" y1="0" x2="-3" y2="0" width="0.25" layer="51"/>
+<wire x1="0" y1="0" x2="0" y2="-3" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.74" radius="0.5060625" width="0.25" layer="51"/>
+<wire x1="0" y1="-3" x2="0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="0.5" y1="-2.5" x2="-0.5" y2="-2.5" width="0.25" layer="51"/>
+<wire x1="-0.5" y1="-2.5" x2="0" y2="-3" width="0.25" layer="51"/>
+<wire x1="-3" y1="0" x2="-2.5" y2="-0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="-0.5" x2="-2.5" y2="0.5" width="0.25" layer="51"/>
+<wire x1="-2.5" y1="0.5" x2="-3" y2="0" width="0.25" layer="51"/>
+<circle x="-2.04" y="-1.75" radius="0.16643125" width="0" layer="51"/>
+<text x="-1.981" y="0.595" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">X</text>
+<text x="0.635" y="-1.841" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Y</text>
+<text x="-3" y="-1.738" size="0.6096" layer="51" font="vector" ratio="20" rot="R180" align="center">Z</text>
 </package>
 </packages>
 <symbols>
@@ -23571,6 +23584,69 @@ part number 2062-2P from STA</description>
 <text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="1X06_2.54MM_SCREWPIN">
+<description>&lt;h3&gt;Plated Through Hole - 6 Pin No Silk Outline&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:6&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_06&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<pad name="1" x="-6.35" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<pad name="2" x="-3.81" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<pad name="3" x="-1.27" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<pad name="4" x="1.27" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<pad name="5" x="3.81" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<pad name="6" x="6.35" y="0" drill="1.3" diameter="2.1" rot="R90"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="-7.82" y1="3.3" x2="-7.8" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-7.8" y1="3.3" x2="7.8" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="7.8" y1="3.3" x2="7.82" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-7.8" y1="-3.2" x2="7.8" y2="-3.2" width="0.1524" layer="21"/>
+<wire x1="2.02" y1="1.7" x2="0.52" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="0.52" y1="1.7" x2="0.52" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="2.02" y1="1.7" x2="2.02" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="4.56" y1="1.7" x2="3.06" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="3.06" y1="1.7" x2="3.06" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="4.56" y1="1.7" x2="4.56" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="7.1" y1="1.7" x2="5.6" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="5.6" y1="1.7" x2="5.6" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="7.1" y1="1.7" x2="7.1" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-0.52" y1="1.7" x2="-2.02" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="-2.02" y1="1.7" x2="-2.02" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-0.52" y1="1.7" x2="-0.52" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-3.06" y1="1.7" x2="-4.56" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="-4.56" y1="1.7" x2="-4.56" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-3.06" y1="1.7" x2="-3.06" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-5.6" y1="1.7" x2="-7.1" y2="1.7" width="0.0762" layer="51"/>
+<wire x1="-7.1" y1="1.7" x2="-7.1" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-5.6" y1="1.7" x2="-5.6" y2="3.2" width="0.0762" layer="51"/>
+<wire x1="-7.8" y1="-3.2" x2="-7.8" y2="-2.311" width="0.1524" layer="21"/>
+<wire x1="-7.8" y1="-2.311" x2="-7.8" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="7.8" y1="-3.2" x2="7.8" y2="-2.311" width="0.1524" layer="21"/>
+<wire x1="7.8" y1="-2.311" x2="7.8" y2="3.3" width="0.1524" layer="21"/>
+<wire x1="-6.35" y1="3.048" x2="-6.35" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="-6.35" y1="2.032" x2="-5.969" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-6.35" y1="2.032" x2="-6.731" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-3.81" y1="3.048" x2="-3.81" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="-3.81" y1="2.032" x2="-3.429" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-3.81" y1="2.032" x2="-4.191" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-1.27" y1="3.048" x2="-1.27" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="-1.27" y1="2.032" x2="-0.889" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-1.27" y1="2.032" x2="-1.651" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="1.27" y1="3.048" x2="1.27" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="1.27" y1="2.032" x2="1.651" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="1.27" y1="2.032" x2="0.889" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="3.81" y1="3.048" x2="3.81" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="3.81" y1="2.032" x2="4.191" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="3.81" y1="2.032" x2="3.429" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="6.35" y1="3.048" x2="6.35" y2="2.032" width="0.0762" layer="51"/>
+<wire x1="6.35" y1="2.032" x2="6.731" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="6.35" y1="2.032" x2="5.969" y2="2.413" width="0.0762" layer="51"/>
+<wire x1="-7.8" y1="-2.311" x2="7.8" y2="-2.311" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="I2C_STANDARD">
@@ -23695,6 +23771,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.sparkfun.com/products/9280"&gt; Arduino Stackable Header - 6 Pin&lt;/a&gt; (PRT-09280)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/16499"&gt; Screw Terminals 2.54mm Pitch (6-Pin)&lt;/a&gt; (PRT-16499)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;/p&gt;
@@ -24055,6 +24132,21 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </technology>
 </technologies>
 </device>
+<device name="2.54MM_SCREW_TERMINALS" package="1X06_2.54MM_SCREWPIN">
+<connects>
+<connect gate="JP1" pin="1" pad="1"/>
+<connect gate="JP1" pin="2" pad="2"/>
+<connect gate="JP1" pin="3" pad="3"/>
+<connect gate="JP1" pin="4" pad="4"/>
+<connect gate="JP1" pin="5" pad="5"/>
+<connect gate="JP1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-14885" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="CONN_02" prefix="J" uservalue="yes">
@@ -24384,14 +24476,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>&lt;h3&gt;Digital Ground Supply&lt;/h3&gt;</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-<text x="0" y="-0.254" size="1.778" layer="96" align="top-center">&gt;VALUE</text>
+<text x="0" y="-0.254" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 </symbol>
 <symbol name="3.3V">
 <description>&lt;h3&gt;3.3V Voltage Supply&lt;/h3&gt;</description>
 <wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
 <pin name="3.3V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -24891,6 +24983,30 @@ Standard 0402 sized pads with cathode pin indicator.
 <wire x1="0.9262" y1="-0.4262" x2="0.9262" y2="0.4262" width="0.05" layer="39"/>
 <wire x1="1.27" y1="0.381" x2="1.27" y2="-0.381" width="0.1524" layer="21"/>
 </package>
+<package name="LED-0805">
+<description>&lt;B&gt;LED 0805 SMT&lt;/B&gt;&lt;p&gt;
+0805, surface mount.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch:1.05mm &lt;/li&gt;
+&lt;li&gt;Area: 1.2mm x 1.2mm&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;LED - RED&lt;/li&gt;</description>
+<smd name="A" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<smd name="C" x="1.05" y="0" dx="1.2" dy="1.2" layer="1" roundness="30"/>
+<wire x1="2" y1="0.75" x2="2" y2="-0.75" width="0.1524" layer="21"/>
+<wire x1="-1.8" y1="0.75" x2="-1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-1.8" y1="-0.75" x2="1.8" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="-0.75" x2="1.8" y2="0.75" width="0.05" layer="39"/>
+<wire x1="1.8" y1="0.75" x2="-1.8" y2="0.75" width="0.05" layer="39"/>
+<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<wire x1="0.3" y1="0.4" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0.3" y1="0" x2="0.3" y2="-0.4" width="0.1" layer="51"/>
+<wire x1="0" y1="0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+<wire x1="0" y1="-0.3" x2="0.3" y2="0" width="0.1" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -25007,6 +25123,18 @@ Standard 0402 sized pads with cathode pin indicator.
 <technology name="">
 <attribute name="PROD_ID" value="DIO-16757" constant="no"/>
 <attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-0805" package="LED-0805">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-16865"/>
+<attribute name="VALUE" value="RED"/>
 </technology>
 </technologies>
 </device>
