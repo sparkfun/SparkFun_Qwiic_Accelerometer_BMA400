@@ -25570,7 +25570,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="167.64" y="10.16" size="2.54" layer="94" font="vector">Dryw Wade</text>
-<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="73.66" y="180.34" size="2.54" layer="94" font="vector" align="center">Accelerometer - BMA400</text>
 <text x="38.1" y="76.2" size="2.54" layer="94" font="vector" align="center">Connectors</text>
 <text x="93.98" y="76.2" size="2.54" layer="94" font="vector" align="center">Power LED</text>

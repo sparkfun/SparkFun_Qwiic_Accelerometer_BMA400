@@ -188,7 +188,7 @@
 <wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.2032" layer="20"/>
 <wire x1="0" y1="25.4" x2="0" y2="0" width="0.2032" layer="20"/>
 <rectangle x1="11.8618" y1="12.6746" x2="11.9888" y2="12.7508" layer="41"/>
-<text x="1.27" y="10.16" size="1.778" layer="16" font="vector" ratio="15" rot="MR270" align="center">v01</text>
+<text x="1.27" y="10.16" size="1.778" layer="16" font="vector" ratio="15" rot="MR270" align="center">v10</text>
 <rectangle x1="11.43" y1="13.716" x2="11.684" y2="14.351" layer="42"/>
 <text x="16.51" y="-29.21" size="1.778" layer="51" font="vector">Dryw Wade</text>
 <dimension x1="0" y1="0" x2="2.54" y2="0" x3="1.27" y3="-3.81" textsize="1.778" layer="47" unit="inch"/>
