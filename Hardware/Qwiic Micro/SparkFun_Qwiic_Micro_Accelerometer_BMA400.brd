@@ -2872,8 +2872,8 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <attribute name="PROD_ID" value="DIO-16757" x="-17.78" y="44.45" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="5.08" y="12.065" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center"/>
 </element>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.985" y="5.08" smashed="yes" rot="MR0"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.985" y="5.08" smashed="yes"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.159" y="1.905" smashed="yes" rot="MR0"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="2.159" y="1.905" smashed="yes"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.985" y="18.415" smashed="yes"/>
 <element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.985" y="18.415" smashed="yes" rot="MR0"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-19.05" y="-13.97" smashed="yes">
@@ -3016,6 +3016,9 @@ These are the minimums &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabili
 <wire x1="7.104" y1="13.216" x2="7.104" y2="11.684" width="0.127" layer="1"/>
 <wire x1="7.104" y1="11.684" x2="6.85" y2="11.43" width="0.127" layer="1"/>
 <wire x1="6.85" y1="11.43" x2="6.85" y2="10.16" width="0.127" layer="1"/>
+<via x="6.858" y="5.08" extent="1-16" drill="0.3048"/>
+<via x="3.81" y="12.319" extent="1-16" drill="0.3048"/>
+<via x="2.159" y="12.319" extent="1-16" drill="0.3048"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="2"/>
