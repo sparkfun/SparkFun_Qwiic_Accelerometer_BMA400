@@ -25621,6 +25621,8 @@ power LED</text>
 <text x="78.74" y="154.94" size="2.54" layer="97" font="vector" align="center">Voltage Range
 VDD: 1.72V - 3.6V
 VDDIO: 1.2V - 3.6V</text>
+<text x="17.78" y="63.5" size="2.54" layer="97" font="vector">PTH connectors only
+accept 22AWG or smaller</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -25636,15 +25638,15 @@ VDDIO: 1.2V - 3.6V</text>
 <attribute name="VALUE" x="68.58" y="119.38" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="180.34" y="40.64" smashed="yes"/>
-<instance part="J1" gate="G$1" x="33.02" y="22.86" smashed="yes">
-<attribute name="VALUE" x="25.654" y="12.7" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
-<attribute name="NAME" x="27.94" y="30.734" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="33.02" y="20.32" smashed="yes">
+<attribute name="VALUE" x="25.654" y="10.16" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<attribute name="NAME" x="27.94" y="28.194" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND1" gate="1" x="43.18" y="15.24" smashed="yes">
-<attribute name="VALUE" x="43.18" y="14.986" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="43.18" y="12.7" smashed="yes">
+<attribute name="VALUE" x="43.18" y="12.446" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY1" gate="G$1" x="43.18" y="30.48" smashed="yes">
-<attribute name="VALUE" x="43.18" y="33.274" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY1" gate="G$1" x="43.18" y="27.94" smashed="yes">
+<attribute name="VALUE" x="43.18" y="30.734" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="LOGO2" gate="G$1" x="190.5" y="33.02" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="160.02" y="45.72" smashed="yes"/>
@@ -25731,13 +25733,13 @@ VDDIO: 1.2V - 3.6V</text>
 <instance part="SUPPLY10" gate="G$1" x="129.54" y="63.5" smashed="yes">
 <attribute name="VALUE" x="129.54" y="66.294" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="J2" gate="G$1" x="33.02" y="50.8" smashed="yes">
-<attribute name="VALUE" x="30.48" y="45.974" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="30.48" y="53.848" size="1.778" layer="95" font="vector"/>
+<instance part="J2" gate="G$1" x="33.02" y="45.72" smashed="yes">
+<attribute name="VALUE" x="30.48" y="40.894" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="30.48" y="48.768" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="J3" gate="G$1" x="33.02" y="60.96" smashed="yes">
-<attribute name="VALUE" x="30.48" y="56.134" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="30.48" y="64.008" size="1.778" layer="95" font="vector"/>
+<instance part="J3" gate="G$1" x="33.02" y="55.88" smashed="yes">
+<attribute name="VALUE" x="30.48" y="51.054" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="30.48" y="58.928" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="TP1" gate="G$1" x="129.54" y="12.7" smashed="yes">
 <attribute name="NAME" x="134.62" y="12.7" size="1.778" layer="95" font="vector"/>
@@ -25752,8 +25754,8 @@ VDDIO: 1.2V - 3.6V</text>
 <attribute name="NAME" x="134.62" y="20.32" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="LOGO4" gate="G$1" x="223.52" y="44.958" smashed="yes"/>
-<instance part="GND2" gate="1" x="43.18" y="45.72" smashed="yes">
-<attribute name="VALUE" x="43.18" y="45.466" size="1.778" layer="96" align="top-center"/>
+<instance part="GND2" gate="1" x="43.18" y="40.64" smashed="yes">
+<attribute name="VALUE" x="43.18" y="40.386" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="ADR" gate="G$1" x="205.74" y="101.6" smashed="yes" rot="MR0">
 <attribute name="NAME" x="202.184" y="101.6" size="1.778" layer="95" font="vector" rot="MR90" align="center"/>
@@ -25765,9 +25767,9 @@ VDDIO: 1.2V - 3.6V</text>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="43.18" y1="17.78" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="15.24" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="17.78" x2="40.64" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -25802,17 +25804,17 @@ VDDIO: 1.2V - 3.6V</text>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
-<wire x1="43.18" y1="48.26" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="50.8" x2="40.64" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="43.18" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="45.72" x2="40.64" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="J2" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<wire x1="43.18" y1="30.48" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="22.86" x2="40.64" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="20.32" x2="40.64" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDDIO"/>
@@ -25863,8 +25865,8 @@ VDDIO: 1.2V - 3.6V</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
-<wire x1="40.64" y1="27.94" x2="45.72" y2="27.94" width="0.1524" layer="91"/>
-<label x="45.72" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="40.64" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
+<label x="45.72" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCX"/>
@@ -25885,8 +25887,8 @@ VDDIO: 1.2V - 3.6V</text>
 <net name="SDA" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="40.64" y1="25.4" x2="45.72" y2="25.4" width="0.1524" layer="91"/>
-<label x="45.72" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="40.64" y1="22.86" x2="45.72" y2="22.86" width="0.1524" layer="91"/>
+<label x="45.72" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDX"/>
@@ -25935,8 +25937,8 @@ VDDIO: 1.2V - 3.6V</text>
 <label x="93.98" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
-<wire x1="40.64" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
-<label x="43.18" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="40.64" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
