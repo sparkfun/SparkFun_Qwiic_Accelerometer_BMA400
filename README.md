@@ -25,7 +25,7 @@ Repository Contents
 Documentation
 -------------
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-triple-axis-accelerometer-breakout---bma400-qwiic-hookup-guide)** - Basic Hookup Guide for the SparkFun Triple Axis Accelerometer Breakout - BMA400 (Qwiic). 
-* **[BMA Arduino Library](https://github.com/sparkfun/SparkFun_BMA400_Arduino_Library)** - Arduino librar for the BMA400 based off the Bosch API.
+* **[BMA400 Arduino Library](https://github.com/sparkfun/SparkFun_BMA400_Arduino_Library)** - Arduino library for the BMA400 based off the Bosch API.
 
 Product Versions
 ----------------
